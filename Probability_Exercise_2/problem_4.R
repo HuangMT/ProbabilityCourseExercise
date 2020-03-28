@@ -1,4 +1,4 @@
-# The R code of 3rd problem: Lying Monty Hall Problem
+# The R code of 4th problem: Lying Monty Hall Problem
 
 #   Actually the index of doors can be arbitrarily changed, the only function is to distinguish the different
 # doors. So in this problem we identify the door chosen by compotitor as "0", and the door chosen by Monty as "1".
@@ -6,7 +6,7 @@
 #   We repeat the simulation for different p, from 0 to 1 with step 0.1 .
 
 p_of_lie <- seq(fr=0,to=1,by=0.1)
-N = length(p_of_lie)
+N <- length(p_of_lie)
 
 p_car_of_choose_0_when_NH_pointed_car <- numeric(N)
 p_car_of_choose_1_when_NH_pointed_car <- numeric(N)
