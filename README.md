@@ -1,2 +1,2 @@
 # ProbabilityCourseExercise
-A demo to the simulation task of probability course exercises.
+The demo of the simulation task in the exercises of probability course.
